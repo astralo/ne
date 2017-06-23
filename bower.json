@@ -1,0 +1,22 @@
+{
+  "name": "crypto.dev",
+  "authors": [
+    "Artur Kim <kima@taakt.ru>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7",
+    "lodash": "^4.17.4"
+  }
+}
