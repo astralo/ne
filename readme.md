@@ -1,9 +1,15 @@
-установить зависимости
+Main components
 ```
 composer install
+php artisan migrate
 ```
 
-добавить задачу cron
+Add cron task
 ```
-* * * ** php /path/to/laravel/php artisan schedule:run
+* * * * * php /path/to/laravel/artisan schedule:run
+```
+
+Optionally
+```
+npm install
 ```
